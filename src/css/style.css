@@ -1,0 +1,365 @@
+/* line 3, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/* HEADER SECTION */
+/* line 8, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+header {
+  position: relative;
+}
+
+/* line 11, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+nav {
+  height: 50px;
+  background-color: black;
+}
+
+/* line 15, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+header .menu {
+  padding: 16px 70px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* line 22, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+header .menu .menu_link {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 29, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+header .menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 33, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 39, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+/* line 44, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.subheader_official {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  margin-top: 8px;
+  color: white;
+}
+
+/* line 51, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.call_text {
+  margin-top: 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+  text-align: right;
+}
+
+/* line 59, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.call_number {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 8px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* line 69, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.call_number:hover {
+  color: white;
+}
+
+/* line 72, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.call_btn {
+  margin-top: 22px;
+  font-size: 14px;
+  width: 162px;
+  height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+}
+
+/* PROMO SECTION */
+/* line 87, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.promo {
+  padding: 150px 0 135px 0;
+  min-height: 800px;
+  background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 92, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.promo .promo_header {
+  margin-top: 68px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+/* line 102, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.promo .promo_subheader {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  line-height: 36px;
+  margin: 20px 0 0 0;
+}
+
+/* line 111, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.promo .promo_descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 119, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 115px;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+/* ADVANTAGES SECTION */
+/* line 133, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.advantages {
+  padding: 20px 0 64px 0;
+  min-height: 851px;
+}
+
+/* line 137, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.advantages .advantages_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 486px;
+  margin-top: 22px;
+}
+
+/* line 144, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.advantages .advantages_item .icon_round {
+  background-color: #1EACC7;
+  width: 116px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  border-radius: 60px;
+}
+
+/* line 154, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.advantages .advantages_text {
+  width: 333px;
+}
+
+/* line 157, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.advantages .advantages_item .highlighted_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #1EACC7;
+  display: block;
+  margin-bottom: -10px;
+}
+
+/* line 165, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.label {
+  padding: 7px 0 0 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 178, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.label_text {
+  margin-top: 33px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+/* line 189, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile {
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+  min-height: 866px;
+}
+
+/* line 193, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 195, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: 19px;
+  padding-top: 92px;
+  position: relative;
+}
+
+/* line 202, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_1 {
+  background: url("../img/cards/card_1.png") center center/cover no-repeat;
+}
+
+/* line 204, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_2 {
+  background: url("../img/cards/card_2.png") center center/cover no-repeat;
+}
+
+/* line 206, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_3 {
+  background: url("../img/cards/card_3.png") center center/cover no-repeat;
+}
+
+/* line 208, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_4 {
+  background: url("../img/cards/card_4.png") center center/cover no-repeat;
+}
+
+/* line 210, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_5 {
+  background: url("../img/cards/card_5.png") center center/cover no-repeat;
+}
+
+/* line 212, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_6 {
+  background: url("../img/cards/card_1.png") center center/cover no-repeat;
+}
+
+/* line 214, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 221, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_plus {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-top: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* line 236, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.mobile_item_plus img {
+  width: 100%;
+  padding: 6px;
+}
+
+/* line 240, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.subtitle {
+  margin-top: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 250, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.possibilities {
+  background: url("../img/possibilities_bg.jpg") center center/cover no-repeat;
+  padding: 57px 0 137px 0;
+}
+
+/* line 253, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.possibilities_car {
+  width: 57%;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+
+/* line 257, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.possibilities_bottom_text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/* line 263, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.label_white {
+  background-color: white;
+  color: black;
+}
+
+/* line 267, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.label_text_white {
+  color: white;
+}
+
+/* line 270, ../../../PycharmProjects/UberProject/src/saas/style.sass */
+.subtitle_white {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
