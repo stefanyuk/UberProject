@@ -1,0 +1,14 @@
+{{ form.hidden_tag() }}
+{{ form.name(class="form__input name", placeholder="Введите ваше имя") }}
+{{ form.phone_number(class="form__input phone", placeholder="Введите ваш телефон") }}
+{% if form.email.errors %}
+    {{ form.email(class="form__input email") }}
+    <div class="invalid-feedback">
+        {% for error in form.email.errors %}
+            <span>{{ error }}</span>
+        {% endfor %}
+    </div>
+{% else %}
+    {{ form.email(class="form__input email", placeholder="Введите ваш e-mail") }}
+{% endif %}
+{{ form.submit(class="button") }}
