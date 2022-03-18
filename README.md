@@ -40,4 +40,4 @@ This is a landing page main purpose of which is to represent the brand and to ga
 
 After these steps you should see the home page after you run the application.
 
-![alt text](https://github.com/stefanyuk/EPAM-Final-project/blob/main/documentation/mockups/welcome.png "Logo Title Text 1")
+![alt text](https://github.com/stefanyuk/UberProject/blob/main/uber/docs/img/main_page.png "Logo Title Text 1")
