@@ -7,12 +7,14 @@ home = Blueprint('home', __name__)
 
 @home.route('/')
 def home_page():
+    """Route that handles main page GET request"""
     form = LeadForm()
     return render_template('index.html', form=form)
 
 
 @home.route('/save-lead-data', methods=['POST'])
 def save_lead_data():
+    """Saves information provided by user to the database"""
     form = LeadForm()
     for key, value in request.form.items():
         getattr(form, key).data = value

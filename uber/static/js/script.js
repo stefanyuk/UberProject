@@ -18,6 +18,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
 $(document).ready(function (){
     sendFormDataOnSubmit()
+    // PHONE MASK
+    $('.form__input.phone').mask('+380-99-999-9999');
+    //
 })
 function sendFormDataOnSubmit (){
     $(document).on('click', '.button', function () {
